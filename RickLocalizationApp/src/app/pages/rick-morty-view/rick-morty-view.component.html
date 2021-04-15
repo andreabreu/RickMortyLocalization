@@ -1,0 +1,48 @@
+<div class="container" *ngIf="rickInfo">
+  <div class="card  mt-2 col-12">
+    <div class="card-header">
+      <strong>{{rickInfo.name}}</strong>
+    </div>
+    <div class="card-body">
+      <div class="row">
+        <div class="border-right"  [ngClass]="showHistory ? 'col-6' : 'col-12'">
+          <div class="d-flex justify-content-center">
+            <ngx-avatar src="{{rickInfo.image}}" title="{{rickInfo.name}}" size="150"></ngx-avatar>
+          </div>
+          <table class="table table-striped table-bordered mt-2" aria-describedby="mydesc">
+            <thead class="thead-inverse">
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">{{rickInfo.name}}</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Age</td>
+                <td>{{rickInfo.age}}</td>
+              </tr>
+              <tr>
+                <td>Species</td>
+                <td>{{rickInfo.species}}</td>
+              </tr>
+              <tr>
+                <td>Occupation</td>
+                <td>{{rickInfo.occupation}}</td>
+              </tr>
+              <tr>
+                <td>Origin</td>
+                <td>{{rickInfo.dimension.name}}</td>
+              </tr>
+            </tbody>
+          </table>
+          <button type="button" class="btn btn-outline-info btn-block" (click)="showHistory = !showHistory">{{showHistory ? 'Hide' : 'Show'}} History ({{rickInfo.rickDimensions.length}})</button>
+        </div>
+        <div class="col-6" *ngIf="rickInfo && showHistory">
+          <app-rick-morty-history [rickInfo]="rickInfo" (saved)='ngOnInit()'></app-rick-morty-history>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>

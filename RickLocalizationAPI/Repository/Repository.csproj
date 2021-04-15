@@ -1,0 +1,74 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20210414043108_Inicial.cs" />
+    <Compile Remove="Migrations\20210414043108_Inicial.Designer.cs" />
+    <Compile Remove="Migrations\20210414224541_teste.cs" />
+    <Compile Remove="Migrations\20210414224541_teste.Designer.cs" />
+    <Compile Remove="Migrations\20210414224721_Initialize.cs" />
+    <Compile Remove="Migrations\20210414224721_Initialize.Designer.cs" />
+    <Compile Remove="Migrations\20210414232109_Initialize3.cs" />
+    <Compile Remove="Migrations\20210414232109_Initialize3.Designer.cs" />
+    <Compile Remove="Migrations\20210414233126_Initialize.cs" />
+    <Compile Remove="Migrations\20210414233126_Initialize.Designer.cs" />
+    <Compile Remove="Migrations\20210414235339_Initialize.cs" />
+    <Compile Remove="Migrations\20210414235339_Initialize.Designer.cs" />
+    <Compile Remove="Migrations\20210415011501_Initialize.cs" />
+    <Compile Remove="Migrations\20210415011501_Initialize.Designer.cs" />
+    <Compile Remove="Migrations\20210415011708_Initialize.cs" />
+    <Compile Remove="Migrations\20210415011708_Initialize.Designer.cs" />
+    <Compile Remove="Migrations\20210415012237_Initialize.cs" />
+    <Compile Remove="Migrations\20210415012237_Initialize.Designer.cs" />
+    <Compile Remove="Migrations\20210415012335_Initialize.cs" />
+    <Compile Remove="Migrations\20210415012335_Initialize.Designer.cs" />
+    <Compile Remove="Migrations\20210415012408_Initialize.cs" />
+    <Compile Remove="Migrations\20210415012408_Initialize.Designer.cs" />
+    <Compile Remove="Migrations\20210415013018_Initialize.cs" />
+    <Compile Remove="Migrations\20210415013018_Initialize.Designer.cs" />
+    <Compile Remove="Migrations\20210415013209_Initialize.cs" />
+    <Compile Remove="Migrations\20210415013209_Initialize.Designer.cs" />
+    <Compile Remove="Migrations\20210415013523_Initialize.cs" />
+    <Compile Remove="Migrations\20210415013523_Initialize.Designer.cs" />
+    <Compile Remove="Migrations\20210415013752_Initialize.cs" />
+    <Compile Remove="Migrations\20210415013752_Initialize.Designer.cs" />
+    <Compile Remove="Migrations\20210415014113_Initialize.cs" />
+    <Compile Remove="Migrations\20210415014113_Initialize.Designer.cs" />
+    <Compile Remove="Migrations\20210415014236_Initialize.cs" />
+    <Compile Remove="Migrations\20210415014236_Initialize.Designer.cs" />
+    <Compile Remove="Migrations\20210415014401_Initialize.cs" />
+    <Compile Remove="Migrations\20210415014401_Initialize.Designer.cs" />
+    <Compile Remove="Migrations\20210415014724_Initialize.cs" />
+    <Compile Remove="Migrations\20210415014724_Initialize.Designer.cs" />
+    <Compile Remove="Migrations\20210415015905_Initialize.cs" />
+    <Compile Remove="Migrations\20210415015905_Initialize.Designer.cs" />
+    <Compile Remove="Migrations\20210415020114_Initialize.cs" />
+    <Compile Remove="Migrations\20210415020114_Initialize.Designer.cs" />
+    <Compile Remove="Migrations\20210415020209_Initialize.cs" />
+    <Compile Remove="Migrations\20210415020209_Initialize.Designer.cs" />
+    <Compile Remove="Migrations\20210415020352_Initialize.cs" />
+    <Compile Remove="Migrations\20210415020352_Initialize.Designer.cs" />
+    <Compile Remove="Migrations\20210415044124_Initialize.cs" />
+    <Compile Remove="Migrations\20210415044124_Initialize.Designer.cs" />
+    <Compile Remove="Migrations\20210415044656_Initialize.cs" />
+    <Compile Remove="Migrations\20210415044656_Initialize.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.13" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Seed\" />
+  </ItemGroup>
+
+</Project>

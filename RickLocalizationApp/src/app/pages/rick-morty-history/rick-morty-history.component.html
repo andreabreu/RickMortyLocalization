@@ -1,0 +1,42 @@
+<h2>Travel History</h2>
+<ul class="list-group" *ngIf="dimensions" style="height:350px; overflow-y: scroll;">
+  <li class="list-group-item" *ngFor="let item of rickInfo.rickDimensions">
+    <img src="{{dimensionInfo(item.dimensionId).image}}" height="45" class="rounded" alt="{{dimensionInfo(item.dimensionId).name}">
+
+        {{dimensionInfo(item.dimensionId).name}}
+      </li>
+
+    </ul>
+<br>
+<button type=" button" class="btn btn-outline-success btn-block" (click)="openModal(template)">New
+    Travel</button>
+
+
+    <ng-template #template>
+      <div class="modal-header">
+        <h4 class="modal-title pull-left">New Travel</h4>
+        <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form [formGroup]="navigationForm" (ngSubmit)="onSubmit()">
+          <img src="../../../assets/img/portal.png" class="img-fluid" alt="">
+          <div class="form-group">
+            <label for="dimensionx">Destination</label>
+            <ng-select [items]="dimensions" formControlName="dimension" bindLabel="name" bindValue="id">
+              <ng-template ng-label-tmp let-item="item">
+                <img height="15" width="15" [src]="item.image" alt="Select An Dimension" />
+                {{item.name}}
+              </ng-template>
+            </ng-select>
+            <small id="dimension" class="form-text text-muted">Dimension</small>
+          </div>
+
+          <button type="submit" [disabled]="!navigationForm.valid"
+            class="btn btn-outline-success btn-block">Travel</button>
+
+        </form>
+
+      </div>
+    </ng-template>

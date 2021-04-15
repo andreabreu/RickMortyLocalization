@@ -1,0 +1,29 @@
+  <div class="container">
+    <div class="row">
+
+      <div class="col-3" *ngFor="let item of ricks">
+        <div class="card mb-3">
+          <div class="card-header">
+            <strong> {{item.dimension.name}} </strong>
+          </div>
+          <div class="card-body" style="background-image: url('{{item.dimension.image}}'); height: 100px;">
+          </div>
+          <div class="card-footer">
+            <div class="row" style="cursor: pointer;" (click)="openRick(item.id)">
+              
+              <ngx-avatar src="{{item.image}}" title="{{item.name}}" class="col-6"></ngx-avatar>
+              <ngx-avatar src="{{item.morty.image}}"  title="{{item.morty.name}}" class="col-6"></ngx-avatar>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="row" *ngIf="response">
+      <div class="centerElement">
+        <pagination [boundaryLinks]="true" [directionLinks]="true" [totalItems]="response.totalRecords"
+          [(ngModel)]="response.pageNumber" [itemsPerPage]="12" (pageChanged)="pageChanged($event)">
+        </pagination>
+      </div>
+    </div>
+  </div>

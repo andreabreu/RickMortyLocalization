@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "mWl7le0+No7f7UHJ6LridC2v8YN0SOQGZdHuKZMjUGg336EBegNv0lYk9Wx90n23mZJDgTS/qVMEk6uukiGSTQ==",
+  "success": true,
+  "projectFilePath": "P:\\RickLocalization\\RickLocalizationAPI\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\I\\.nuget\\packages\\fluentvalidation\\10.0.2\\fluentvalidation.10.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+.card-body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centerElement{
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
