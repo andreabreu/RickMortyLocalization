@@ -2,7 +2,7 @@
 ##### The system should maintain Rick and Morty's records in all dimensions, giving access to one or more dimensions.
 
 
-![Image of Rick and Morty](http://pngimg.com/uploads/rick_morty/rick_morty_PNG34.png)
+![ricklocaliation(3)](https://user-images.githubusercontent.com/12116884/115040065-6d92db00-9ea7-11eb-9fd8-c900999c5efb.gif)
 
 ![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
 
@@ -36,7 +36,7 @@ cd RickLocalizationAPI
 dotnet restore
 ```
 
-Edit key `MyContext`  stored in `RickLocalizationAPI\RickLocalizationAPI\appsettings.json` 
+Edit key `MyContext`  stored in `RickLocalizationAPI\RickLocalizationAPI\appsettings.json` setting the MS SQL connection string. 
 
 ```json
 {
@@ -45,6 +45,7 @@ Edit key `MyContext`  stored in `RickLocalizationAPI\RickLocalizationAPI\appsett
   },
 }
 ```
+
 
 
 ## :large_blue_circle: Running
