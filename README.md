@@ -5,6 +5,7 @@
 ![ricklocaliation(3)](https://user-images.githubusercontent.com/12116884/115040065-6d92db00-9ea7-11eb-9fd8-c900999c5efb.gif)
 
 ![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fandreabreu%2FRickMortyLocalization&count_bg=%233DC859&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 Project developed with the features: 
 - :white_check_mark: .Net Core 3.1;
