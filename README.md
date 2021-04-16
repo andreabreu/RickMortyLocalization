@@ -18,8 +18,8 @@ Project developed with the features:
 
 
 
-## Installation
-##### Angular Application
+## :large_blue_circle: Installation
+#### Angular Application
 
 RickLocalization requires [Node.js](https://nodejs.org/) 10+ to run.
 
@@ -29,14 +29,25 @@ cd RickLocalizationApp
 npm i
 ```
 
-##### .Net Core WebAPI Application
+#### .Net Core WebAPI Application
 
 ```sh
 cd RickLocalizationAPI
 dotnet restore
 ```
 
-## Running
+Edit key `MyContext`  stored in `RickLocalizationAPI\RickLocalizationAPI\appsettings.json` 
+
+```json
+{
+  "ConnectionStrings": {
+    "MyContext": "Server=(localdb)\\MSSQLLocalDB;Integrated Security=true;Initial Catalog=TestDB;"
+  },
+}
+```
+
+
+## :large_blue_circle: Running
 ##### Angular Application
 
 ```sh
