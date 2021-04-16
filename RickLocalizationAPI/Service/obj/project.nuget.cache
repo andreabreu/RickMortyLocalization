@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZncJSqK/pzP6MheAVoHkSczTpS1ddBT9ercssv1QlbNnPkVoUbZWNCXVkNn5FKgoQkwcH9l1xaD4PE28UMiI/A==",
+  "dgSpecHash": "DnViVkzoFS6p6lpfejEX5tIzAX6PlxQeZ4pZVrgfbp7oaJkTF4MsZMDyQMEtBxZPy3UdIx8bE7j70HQSvUyp8g==",
   "success": true,
-  "projectFilePath": "P:\\RickLocalization\\RickLocalizationAPI\\Service\\Service.csproj",
+  "projectFilePath": "P:\\RickMortyLocalization\\RickLocalizationAPI\\Service\\Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\I\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\I\\.nuget\\packages\\fluentvalidation\\10.0.2\\fluentvalidation.10.0.2.nupkg.sha512",

@@ -34,3 +34,15 @@ P:\RickLocalization\RickLocalizationAPI\Repository\obj\Debug\netcoreapp3.1\Repos
 P:\RickLocalization\RickLocalizationAPI\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CopyComplete
 P:\RickLocalization\RickLocalizationAPI\Repository\obj\Debug\netcoreapp3.1\Repository.dll
 P:\RickLocalization\RickLocalizationAPI\Repository\obj\Debug\netcoreapp3.1\Repository.pdb
+P:\RickMortyLocalization\RickLocalizationAPI\Repository\bin\Debug\netcoreapp3.1\Repository.deps.json
+P:\RickMortyLocalization\RickLocalizationAPI\Repository\bin\Debug\netcoreapp3.1\Repository.dll
+P:\RickMortyLocalization\RickLocalizationAPI\Repository\bin\Debug\netcoreapp3.1\Repository.pdb
+P:\RickMortyLocalization\RickLocalizationAPI\Repository\bin\Debug\netcoreapp3.1\Domain.dll
+P:\RickMortyLocalization\RickLocalizationAPI\Repository\bin\Debug\netcoreapp3.1\Domain.pdb
+P:\RickMortyLocalization\RickLocalizationAPI\Repository\obj\Debug\netcoreapp3.1\Repository.csprojAssemblyReference.cache
+P:\RickMortyLocalization\RickLocalizationAPI\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfoInputs.cache
+P:\RickMortyLocalization\RickLocalizationAPI\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfo.cs
+P:\RickMortyLocalization\RickLocalizationAPI\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CoreCompileInputs.cache
+P:\RickMortyLocalization\RickLocalizationAPI\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CopyComplete
+P:\RickMortyLocalization\RickLocalizationAPI\Repository\obj\Debug\netcoreapp3.1\Repository.dll
+P:\RickMortyLocalization\RickLocalizationAPI\Repository\obj\Debug\netcoreapp3.1\Repository.pdb

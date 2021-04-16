@@ -8,7 +8,6 @@ import { RickDimension } from 'src/app/models/rick-dimension.model';
 import { RickModel } from 'src/app/models/rick.model';
 import { DimensionService } from 'src/app/services/dimension.service';
 import Swal from 'sweetalert2';
-
 @Component({
   selector: 'app-rick-morty-history',
   templateUrl: './rick-morty-history.component.html',
@@ -43,7 +42,6 @@ export class RickMortyHistoryComponent implements OnInit {
 
 
   loadDimensions() {
-
     this.dimensionService.get().subscribe((data: DimensionModel[]) => {
       this.dimensions = data;
     })
@@ -55,6 +53,7 @@ export class RickMortyHistoryComponent implements OnInit {
   }
 
   openModal(template: TemplateRef<any>) {
+    this.playAudio('portal');
     this.modalRef = this.modalService.show(template);
   }
 
@@ -81,7 +80,7 @@ export class RickMortyHistoryComponent implements OnInit {
 
       this.dimensionService.addTravel(rickDimension)
         .subscribe(() => {
-
+          this.playAudio('rick');
           Swal.fire({
             title: 'Wubba Lubba Dub Dub',
             text: 'Lets go Morty',
@@ -89,7 +88,7 @@ export class RickMortyHistoryComponent implements OnInit {
             imageHeight: 300,
             imageAlt: 'A tall image'
           })
-            .then((result) => {
+            .then(() => {
 
               var dimension = this.dimensions.filter(x => x.id == id)[0];
 
@@ -105,10 +104,15 @@ export class RickMortyHistoryComponent implements OnInit {
 
             })
           this.saved.emit(true);
-          // this.loadRickInfo(this.rickInfo.id);
           this.modalService.hide();
         })
     }
+  }
+
+  playAudio(name: string) {
+    let audio: HTMLAudioElement = new Audio(`../assets/media/${name}.mp3`);
+    audio.volume = 0.2;
+    audio.play();
   }
 
 }

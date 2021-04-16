@@ -2,7 +2,7 @@
     <div class="row">
 
       <div class="col-3" *ngFor="let item of ricks">
-        <div class="card mb-3">
+        <div class="card mb-3" [@fade]="'in'">
           <div class="card-header">
             <strong> {{item.dimension.name}} </strong>
           </div>
@@ -11,19 +11,19 @@
           <div class="card-footer">
             <div class="row" style="cursor: pointer;" (click)="openRick(item.id)">
               
-              <ngx-avatar src="{{item.image}}" title="{{item.name}}" class="col-6"></ngx-avatar>
-              <ngx-avatar src="{{item.morty.image}}"  title="{{item.morty.name}}" class="col-6"></ngx-avatar>
+              <ngx-avatar src="../../assets/img/rick/{{item.id}}.jpg" title="{{item.name}}" class="col-6"></ngx-avatar>
+              <ngx-avatar src="../../assets/img/morty/{{item.morty.id}}.jpg"  title="{{item.morty.name}}" class="col-6"></ngx-avatar>
             </div>
           </div>
         </div>
       </div>
 
     </div>
-    <div class="row" *ngIf="response">
-      <div class="centerElement">
+    <div class="row justify-content-md-center" *ngIf="response">
+    
         <pagination [boundaryLinks]="true" [directionLinks]="true" [totalItems]="response.totalRecords"
-          [(ngModel)]="response.pageNumber" [itemsPerPage]="12" (pageChanged)="pageChanged($event)">
-        </pagination>
-      </div>
+        [(ngModel)]="response.pageNumber" [itemsPerPage]="12" (pageChanged)="pageChanged($event)">
+      </pagination>
+    
     </div>
   </div>

@@ -44,11 +44,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "P:\\RickLocalization\\RickLocalizationAPI\\Domain\\Domain.csproj",
+      "projectUniqueName": "P:\\RickMortyLocalization\\RickLocalizationAPI\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "P:\\RickLocalization\\RickLocalizationAPI\\Domain\\Domain.csproj",
+      "projectPath": "P:\\RickMortyLocalization\\RickLocalizationAPI\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\I\\.nuget\\packages\\",
-      "outputPath": "P:\\RickLocalization\\RickLocalizationAPI\\Domain\\obj\\",
+      "outputPath": "P:\\RickMortyLocalization\\RickLocalizationAPI\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\I\\AppData\\Roaming\\NuGet\\NuGet.Config",

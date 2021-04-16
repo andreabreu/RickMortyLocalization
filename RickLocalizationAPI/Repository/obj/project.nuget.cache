@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qp4a1Lx9zJeavtdQL9zEUPV72eObY7PzecZExwF/UyAsnnJt97n3a3ERPfKkSKC8uy64O/0z1cTCdUvqmUGkLg==",
+  "dgSpecHash": "gzuNu838LLjxcIfEpbkGzAuu0gJmER8wcJXrqYlr4ORIhNRbNQWM/0ET9KFBGQ6yuERcNQiPM+VEnJktOoOnjg==",
   "success": true,
-  "projectFilePath": "P:\\RickLocalization\\RickLocalizationAPI\\Repository\\Repository.csproj",
+  "projectFilePath": "P:\\RickMortyLocalization\\RickLocalizationAPI\\Repository\\Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\I\\.nuget\\packages\\fluentvalidation\\10.0.2\\fluentvalidation.10.0.2.nupkg.sha512",
     "C:\\Users\\I\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

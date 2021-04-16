@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class RickService {
 
-  url = 'https://localhost:44300/api';
+  url = 'https://localhost:5001/api';
 
   constructor(private http: HttpClient) { }
 

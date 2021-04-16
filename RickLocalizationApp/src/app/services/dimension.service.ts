@@ -6,7 +6,7 @@ import { RickDimension } from "../models/rick-dimension.model";
   providedIn: 'root'
 })
 export class DimensionService {
-  url = 'https://localhost:44300/api';
+  url = 'https://localhost:5001/api';
 
   constructor(private http: HttpClient) { }
 

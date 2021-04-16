@@ -1,33 +1,42 @@
 import { Component, OnInit } from '@angular/core';
-import { forkJoin } from 'rxjs';
-import { groupBy } from 'rxjs/internal/operators/groupBy';
 import { LocationsService } from '../../services/locations.service'
 import { RickService } from '../../services/rick.service'
 import { RickModel } from '../../models/rick.model'
 import { PagedResponse } from '../../models/wrappers/paged-response'
 import { Router } from '@angular/router';
+import { animate, state, style, transition, trigger } from '@angular/animations';
+
+
 
 @Component({
   selector: 'app-rick-morty-list',
   templateUrl: './rick-morty-list.component.html',
-  styleUrls: ['./rick-morty-list.component.css']
+  styleUrls: ['./rick-morty-list.component.css'],
+  animations: [
+    trigger('fade', [
+      state('in', style({ opacity: 0.93 })),
+      transition(':enter', [style({ opacity: 0 }), animate(600)]),
+      transition(':leave', animate(600, style({ opacity: 0 })))
+    ])
+  ]
 })
+
 export class RickMortyListComponent implements OnInit {
 
   title = 'RickLocalizationApp';
   locations = Array<any>();
   ricks = Array<RickModel>();
 
-  response: PagedResponse = new PagedResponse();
+  response: PagedResponse;
 
 
-  constructor(private locationService: LocationsService, 
+  constructor(private locationService: LocationsService,
     private rickService: RickService,
     private route: Router
-    ) { }
+  ) { }
 
   ngOnInit(): void {
-    this.loadRicks();
+      this.loadRicks();
   }
 
   loadRicks() {
@@ -46,50 +55,7 @@ export class RickMortyListComponent implements OnInit {
     })
   }
 
-
   openRick(id: Number) {
-
     this.route.navigate(['/rick/' + id])
   }
-
-  loadLocations() {
-
-    this.locationService.getLocations(1).subscribe((data: any) => {
-      this.readAllPagesLocation(data.info.pages);
-    })
-  }
-
-  readAllPagesLocation(pages: number) {
-
-    var locationsRequests = new Array<any>();
-
-    for (let i = 1; i <= pages; i++) {
-      var request = this.locationService.getLocations(i);
-      locationsRequests.push(request);
-    }
-
-
-
-    forkJoin(locationsRequests).subscribe(results => {
-      results.forEach((result: any) => {
-        this.locations.push(result.results);
-      });
-      var x = this.groupBy(this.locations[0], 'dimension')
-      console.log(x)
-    });
-
-
-  }
-
-  groupBy(xs, key) {
-
-    return xs.reduce(function (rv, x) {
-      (rv[x[key]] = rv[x[key]] || []).push(x);
-      return rv;
-    }, {});
-
-  };
-
-
-
 }

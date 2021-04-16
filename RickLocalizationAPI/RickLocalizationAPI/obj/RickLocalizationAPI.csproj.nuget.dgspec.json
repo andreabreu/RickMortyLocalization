@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "P:\\RickLocalization\\RickLocalizationAPI\\RickLocalizationAPI\\RickLocalizationAPI.csproj": {}
+    "P:\\RickMortyLocalization\\RickLocalizationAPI\\RickLocalizationAPI\\RickLocalizationAPI.csproj": {}
   },
   "projects": {
-    "P:\\RickLocalization\\RickLocalizationAPI\\Domain\\Domain.csproj": {
+    "P:\\RickMortyLocalization\\RickLocalizationAPI\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "P:\\RickLocalization\\RickLocalizationAPI\\Domain\\Domain.csproj",
+        "projectUniqueName": "P:\\RickMortyLocalization\\RickLocalizationAPI\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "P:\\RickLocalization\\RickLocalizationAPI\\Domain\\Domain.csproj",
+        "projectPath": "P:\\RickMortyLocalization\\RickLocalizationAPI\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\I\\.nuget\\packages\\",
-        "outputPath": "P:\\RickLocalization\\RickLocalizationAPI\\Domain\\obj\\",
+        "outputPath": "P:\\RickMortyLocalization\\RickLocalizationAPI\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\I\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,14 +64,14 @@
         }
       }
     },
-    "P:\\RickLocalization\\RickLocalizationAPI\\Repository\\Repository.csproj": {
+    "P:\\RickMortyLocalization\\RickLocalizationAPI\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "P:\\RickLocalization\\RickLocalizationAPI\\Repository\\Repository.csproj",
+        "projectUniqueName": "P:\\RickMortyLocalization\\RickLocalizationAPI\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "P:\\RickLocalization\\RickLocalizationAPI\\Repository\\Repository.csproj",
+        "projectPath": "P:\\RickMortyLocalization\\RickLocalizationAPI\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\I\\.nuget\\packages\\",
-        "outputPath": "P:\\RickLocalization\\RickLocalizationAPI\\Repository\\obj\\",
+        "outputPath": "P:\\RickMortyLocalization\\RickLocalizationAPI\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\I\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -88,8 +88,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "P:\\RickLocalization\\RickLocalizationAPI\\Domain\\Domain.csproj": {
-                "projectPath": "P:\\RickLocalization\\RickLocalizationAPI\\Domain\\Domain.csproj"
+              "P:\\RickMortyLocalization\\RickLocalizationAPI\\Domain\\Domain.csproj": {
+                "projectPath": "P:\\RickMortyLocalization\\RickLocalizationAPI\\Domain\\Domain.csproj"
               }
             }
           }
@@ -136,14 +136,14 @@
         }
       }
     },
-    "P:\\RickLocalization\\RickLocalizationAPI\\RickLocalizationAPI\\RickLocalizationAPI.csproj": {
+    "P:\\RickMortyLocalization\\RickLocalizationAPI\\RickLocalizationAPI\\RickLocalizationAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "P:\\RickLocalization\\RickLocalizationAPI\\RickLocalizationAPI\\RickLocalizationAPI.csproj",
+        "projectUniqueName": "P:\\RickMortyLocalization\\RickLocalizationAPI\\RickLocalizationAPI\\RickLocalizationAPI.csproj",
         "projectName": "RickLocalizationAPI",
-        "projectPath": "P:\\RickLocalization\\RickLocalizationAPI\\RickLocalizationAPI\\RickLocalizationAPI.csproj",
+        "projectPath": "P:\\RickMortyLocalization\\RickLocalizationAPI\\RickLocalizationAPI\\RickLocalizationAPI.csproj",
         "packagesPath": "C:\\Users\\I\\.nuget\\packages\\",
-        "outputPath": "P:\\RickLocalization\\RickLocalizationAPI\\RickLocalizationAPI\\obj\\",
+        "outputPath": "P:\\RickMortyLocalization\\RickLocalizationAPI\\RickLocalizationAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\I\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -160,14 +160,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "P:\\RickLocalization\\RickLocalizationAPI\\Domain\\Domain.csproj": {
-                "projectPath": "P:\\RickLocalization\\RickLocalizationAPI\\Domain\\Domain.csproj"
+              "P:\\RickMortyLocalization\\RickLocalizationAPI\\Domain\\Domain.csproj": {
+                "projectPath": "P:\\RickMortyLocalization\\RickLocalizationAPI\\Domain\\Domain.csproj"
               },
-              "P:\\RickLocalization\\RickLocalizationAPI\\Repository\\Repository.csproj": {
-                "projectPath": "P:\\RickLocalization\\RickLocalizationAPI\\Repository\\Repository.csproj"
+              "P:\\RickMortyLocalization\\RickLocalizationAPI\\Repository\\Repository.csproj": {
+                "projectPath": "P:\\RickMortyLocalization\\RickLocalizationAPI\\Repository\\Repository.csproj"
               },
-              "P:\\RickLocalization\\RickLocalizationAPI\\Service\\Service.csproj": {
-                "projectPath": "P:\\RickLocalization\\RickLocalizationAPI\\Service\\Service.csproj"
+              "P:\\RickMortyLocalization\\RickLocalizationAPI\\Service\\Service.csproj": {
+                "projectPath": "P:\\RickMortyLocalization\\RickLocalizationAPI\\Service\\Service.csproj"
               }
             }
           }
@@ -243,14 +243,14 @@
         }
       }
     },
-    "P:\\RickLocalization\\RickLocalizationAPI\\Service\\Service.csproj": {
+    "P:\\RickMortyLocalization\\RickLocalizationAPI\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "P:\\RickLocalization\\RickLocalizationAPI\\Service\\Service.csproj",
+        "projectUniqueName": "P:\\RickMortyLocalization\\RickLocalizationAPI\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "P:\\RickLocalization\\RickLocalizationAPI\\Service\\Service.csproj",
+        "projectPath": "P:\\RickMortyLocalization\\RickLocalizationAPI\\Service\\Service.csproj",
         "packagesPath": "C:\\Users\\I\\.nuget\\packages\\",
-        "outputPath": "P:\\RickLocalization\\RickLocalizationAPI\\Service\\obj\\",
+        "outputPath": "P:\\RickMortyLocalization\\RickLocalizationAPI\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\I\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -267,8 +267,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "P:\\RickLocalization\\RickLocalizationAPI\\Domain\\Domain.csproj": {
-                "projectPath": "P:\\RickLocalization\\RickLocalizationAPI\\Domain\\Domain.csproj"
+              "P:\\RickMortyLocalization\\RickLocalizationAPI\\Domain\\Domain.csproj": {
+                "projectPath": "P:\\RickMortyLocalization\\RickLocalizationAPI\\Domain\\Domain.csproj"
               }
             }
           }

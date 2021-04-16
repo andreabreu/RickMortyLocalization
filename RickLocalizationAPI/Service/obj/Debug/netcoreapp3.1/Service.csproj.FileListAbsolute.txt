@@ -34,3 +34,15 @@ P:\RickLocalization\RickLocalizationAPI\Service\obj\Debug\netcoreapp3.1\Service.
 P:\RickLocalization\RickLocalizationAPI\Service\obj\Debug\netcoreapp3.1\Service.csproj.CopyComplete
 P:\RickLocalization\RickLocalizationAPI\Service\obj\Debug\netcoreapp3.1\Service.dll
 P:\RickLocalization\RickLocalizationAPI\Service\obj\Debug\netcoreapp3.1\Service.pdb
+P:\RickMortyLocalization\RickLocalizationAPI\Service\bin\Debug\netcoreapp3.1\Service.deps.json
+P:\RickMortyLocalization\RickLocalizationAPI\Service\bin\Debug\netcoreapp3.1\Service.dll
+P:\RickMortyLocalization\RickLocalizationAPI\Service\bin\Debug\netcoreapp3.1\Service.pdb
+P:\RickMortyLocalization\RickLocalizationAPI\Service\bin\Debug\netcoreapp3.1\Domain.dll
+P:\RickMortyLocalization\RickLocalizationAPI\Service\bin\Debug\netcoreapp3.1\Domain.pdb
+P:\RickMortyLocalization\RickLocalizationAPI\Service\obj\Debug\netcoreapp3.1\Service.csprojAssemblyReference.cache
+P:\RickMortyLocalization\RickLocalizationAPI\Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfoInputs.cache
+P:\RickMortyLocalization\RickLocalizationAPI\Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfo.cs
+P:\RickMortyLocalization\RickLocalizationAPI\Service\obj\Debug\netcoreapp3.1\Service.csproj.CoreCompileInputs.cache
+P:\RickMortyLocalization\RickLocalizationAPI\Service\obj\Debug\netcoreapp3.1\Service.csproj.CopyComplete
+P:\RickMortyLocalization\RickLocalizationAPI\Service\obj\Debug\netcoreapp3.1\Service.dll
+P:\RickMortyLocalization\RickLocalizationAPI\Service\obj\Debug\netcoreapp3.1\Service.pdb
